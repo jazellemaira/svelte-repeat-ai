@@ -1,0 +1,172 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "reverse",
+		"primary": {
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Settle"
+						}
+					}
+				]
+			},
+			"image": {
+				"provider": "imgix",
+				"url": "https://images.unsplash.com/photo-1589254065878-42c9da997008?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyN3x8cm9ib3R8ZW58MHx8fHwxNzU0MzE4OTE2fDA&ixlib=rb-4.1.0&q=85",
+				"alt": "yellow and black robot toy",
+				"origin": {
+					"id": "HBGYvOKXu8A",
+					"url": "https://images.unsplash.com/photo-1589254065878-42c9da997008?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyN3x8cm9ib3R8ZW58MHx8fHwxNzU0MzE4OTE2fDA&ixlib=rb-4.1.0&q=85",
+					"width": 6168,
+					"height": 4112
+				},
+				"width": 6168,
+				"height": 4112,
+				"edit": {
+					"background": "transparent",
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				"credits": null,
+				"__TYPE__": "ImageContent",
+				"thumbnails": {}
+			},
+			"icon": {
+				"__TYPE__": "FieldContent",
+				"value": "gear",
+				"type": "Select"
+			},
+			"subheading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading3",
+						"content": {
+							"text": "Reader"
+						}
+					}
+				]
+			},
+			"body": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Veniam duis consequat aliqua cillum proident proident nostrud id eiusmod duis sunt sint magna. Nulla reprehenderit aliqua cillum consectetur dolor veniam exercitation. Consequat do Lorem mollit consectetur proident ad ad quis eiusmod enim amet ut pariatur magna voluptate."
+						}
+					}
+				]
+			},
+			"button_link": {
+				"key": "383f8630-af7e-46e4-b828-3a7bd95297ab",
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "http://twitter.com",
+					"text": "crop"
+				}
+			},
+			"button_text": {
+				"__TYPE__": "FieldContent",
+				"value": "direction",
+				"type": "Text"
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": []
+			}
+		]
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Straight"
+						}
+					}
+				]
+			},
+			"image": {
+				"__TYPE__": "ImageContent",
+				"provider": "imgix",
+				"url": "https://images.unsplash.com/photo-1589254065878-42c9da997008?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyN3x8cm9ib3R8ZW58MHx8fHwxNzU0MzE4OTE2fDA&ixlib=rb-4.1.0&q=85",
+				"alt": "yellow and black robot toy",
+				"origin": {
+					"id": "HBGYvOKXu8A",
+					"url": "https://images.unsplash.com/photo-1589254065878-42c9da997008?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyN3x8cm9ib3R8ZW58MHx8fHwxNzU0MzE4OTE2fDA&ixlib=rb-4.1.0&q=85",
+					"width": 6168,
+					"height": 4112
+				},
+				"width": 6168,
+				"height": 4112,
+				"edit": {
+					"background": "transparent",
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				"thumbnails": {}
+			},
+			"icon": {
+				"__TYPE__": "FieldContent",
+				"value": "cycle",
+				"type": "Select"
+			},
+			"subheading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading3",
+						"content": {
+							"text": "National"
+						}
+					}
+				]
+			},
+			"body": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Reprehenderit aute voluptate commodo fugiat elit aliqua exercitation dolor ipsum proident eiusmod."
+						}
+					}
+				]
+			},
+			"button_link": {
+				"key": "8170e8fe-9836-4021-b6b9-7e79da905b2d",
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "http://twitter.com",
+					"text": "beat"
+				}
+			},
+			"button_text": {
+				"__TYPE__": "FieldContent",
+				"value": "hello",
+				"type": "Text"
+			}
+		},
+		"items": []
+	}
+]

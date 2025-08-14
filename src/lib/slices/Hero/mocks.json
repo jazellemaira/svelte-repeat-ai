@@ -1,0 +1,72 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading1",
+						"content": {
+							"text": "Videos they'll watch again. And again.",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"button_link": {
+				"key": "8a1c996c-5092-4b40-a9d8-373c07ceeba4",
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://slicemachine.dev",
+					"text": ""
+				}
+			},
+			"image": {
+				"__TYPE__": "ImageContent",
+				"provider": "imgix",
+				"url": "https://images.unsplash.com/photo-1504333638930-c8787321eee0?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyfHxnYWxheHl8ZW58MHx8fHwxNzU0MTQ0OTQ2fDA&ixlib=rb-4.1.0&q=85",
+				"alt": "cluster of star illustration",
+				"origin": {
+					"id": "f7YQo-eYHdM",
+					"url": "https://images.unsplash.com/photo-1504333638930-c8787321eee0?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyfHxnYWxheHl8ZW58MHx8fHwxNzU0MTQ0OTQ2fDA&ixlib=rb-4.1.0&q=85",
+					"width": 4155,
+					"height": 2770
+				},
+				"width": 4155,
+				"height": 2770,
+				"edit": {
+					"background": "transparent",
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				"thumbnails": {}
+			},
+			"body": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Use our cutting-edge AI models to take your videos from good to great.",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"button_label": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "Download Now"
+			}
+		},
+		"items": []
+	}
+]
