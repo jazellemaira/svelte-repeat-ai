@@ -21,13 +21,13 @@
 		isOpen = false;
 	};
 
-	/**
-	 * @param {import('@prismicio/client').LinkField} link
-	 */
-	const isActive = (link) => {
-		const path = asLink(link);
-		return path && $page.url.pathname.includes(path);
-	};
+	// /**
+	//  * @param {import('@prismicio/client').LinkField} link
+	//  */
+	// const isActive = (link) => {
+	// 	const path = asLink(link);
+	// 	return path && $page.url.pathname.includes(path);
+	// };
 </script>
 
 <header class="p-4 md:p-6">
@@ -69,11 +69,7 @@
 				{#each settings.data.navigation as item (item.label)}
 					<li>
 						{#if item.cta_button}
-							<ButtonLink
-								field={item.link}
-								on:click={close}
-								aria-current={isActive(item.link) ? 'page' : undefined}
-							>
+							<ButtonLink field={item.link} on:click={close}>
 								{item.label}
 							</ButtonLink>
 						{:else}
@@ -81,7 +77,6 @@
 								on:click={close}
 								field={item.link}
 								class="block min-h-11 px-3 text-3xl first:mt-8"
-								aria-current={isActive(item.link) ? 'page' : undefined}
 							>
 								{item.label}
 							</PrismicLink>
@@ -96,11 +91,7 @@
 			{#each settings.data.navigation as item (item.label)}
 				<li>
 					{#if item.cta_button}
-						<ButtonLink
-							field={item.link}
-							on:click={close}
-							aria-current={isActive(item.link) ? 'page' : undefined}
-						>
+						<ButtonLink field={item.link} on:click={close}>
 							{item.label}
 						</ButtonLink>
 					{:else}
@@ -108,7 +99,6 @@
 							on:click={close}
 							field={item.link}
 							class="inline-flex min-h-11 items-center"
-							aria-current={isActive(item.link) ? 'page' : undefined}
 						>
 							{item.label}
 						</PrismicLink>
